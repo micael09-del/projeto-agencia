@@ -42,7 +42,7 @@
 
                     <!---dropdown-->
                     <li class="dropdown-item">
-                        <div class="navbar-link">
+                        <div class="navbar-link dropdown-toggle" data-dropdown-toggle>
                             Serviços <ion-icon name="chevron-down-outline"></ion-icon>
                         </div>
 
@@ -66,8 +66,9 @@
                             </li>
                         </ul>
                     </li>
+
                     <li>
-                        <a href="#" class="dropdown-link">
+                        <a href="#" class="navbar-link">
                             Feedback
                         </a>
                     </li>
@@ -76,15 +77,27 @@
 
             <a href="#" class="btn">Login</a>
 
+            <button class="search-btn" id="searchToggle" aria-label="Buscar">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
             <button class="nav-toggle-btn" aria-label="menu mobile">
                 <ion-icon name="list-outline"></ion-icon>
             </button>
+
+            <!---banner-->
+
+            <section class="banner">
+                <video autoplay muted loop>
+                    <source src="assets/videos/1114951_Man_Woman_3840x2160.mp4">
+                </video>
+            </section>
 
         </div>
     </header>
     
     <!---script-->
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
